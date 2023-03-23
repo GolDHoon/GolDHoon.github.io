@@ -1,6 +1,5 @@
 ---
 layout : single
-title : "포스팅 테스트"
-
+title : "포스팅 테스트_Local_successs"
 ---
-포스팅 테스트입니다.
+check success
