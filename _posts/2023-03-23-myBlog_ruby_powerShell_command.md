@@ -4,6 +4,8 @@ title : "내 블로그 프로젝트 관련 PowerShell 명령 모음"
 categories : MyBlog
 tag : [PowerShell, MyBlog]
 toc : true
+toc_sticky : true
+toc_label : 목차
 author_profile : false
 sidebar:
   nav : "docs"
