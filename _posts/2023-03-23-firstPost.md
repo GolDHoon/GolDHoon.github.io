@@ -10,3 +10,7 @@ sidebar:
 search: false
 ---
 check success
+
+유튜브 링크 테스트
+
+{% include video id="tRW4oV_C-E4" provider="youtube"%}

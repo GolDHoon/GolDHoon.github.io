@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "내 블로그 프로젝트 관련 파워쉘 명령 모음"
+title : "내 블로그 프로젝트 관련 PowerShell 명령 모음"
 categories : MyBlog
 tag : [PowerShell, MyBlog]
 toc : true
