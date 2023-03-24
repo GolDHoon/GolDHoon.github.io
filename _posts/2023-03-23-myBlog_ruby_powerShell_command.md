@@ -1,13 +1,17 @@
 ---
 layout : single
-title : "마이블로그 프로젝트 관련 파워쉘 명령 모음"
-categories : MyBlog_practice
-tag : [powerShell, MyBlog]
+title : "내 블로그 프로젝트 관련 파워쉘 명령 모음"
+categories : MyBlog
+tag : [PowerShell, MyBlog]
 toc : true
+author_profile : false
+sidebar:
+  nav : "docs"
+search: true
 ---
 ---
 
-minimal mistake 가이드 링크 : [minimal_mistake](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide "&quot;미니멀미스테이크 링크&quot;")
+minimal mistake 가이드 링크 : [https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide "&quot;미니멀미스테이크 링크&quot;")
 
 ---
 
