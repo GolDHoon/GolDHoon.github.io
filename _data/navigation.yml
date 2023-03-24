@@ -8,8 +8,10 @@ main:
     url : /search/
 
 docs:
-  - title : "내 블로그"
-    url : /categories/#myblog-practice
+  - title : "공방"
+    children : 
+      - title : "내 블로그"
+        url : /categories/#myblog-practice
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
