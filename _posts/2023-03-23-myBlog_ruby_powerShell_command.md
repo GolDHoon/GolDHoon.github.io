@@ -2,6 +2,7 @@
 layout : single
 title : "마이블로그 프로젝트 관련 파워쉘 명령 모음"
 categories : MyBlog_practice
+tag : [powerShell, MyBlog]
 ---
 ---
 
