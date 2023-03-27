@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "글 제목"
+title : "java Map Setting 오류 건(객체메모리 할당)"
 categories : NewUcube
 tag : [JAVA, SUPPORT, NewUcube_SUPPORT]
 toc : true
@@ -11,3 +11,65 @@ sidebar:
   nav : "docs_personal_corporate"
 search: true
 ---
+# 현상
+
+결과를 api 결과를 UI의 그리드에 뿌려줘야하는 상황에서 모든 그리드에 계속 같은 값이 출력된다는 현상 해소 요청
+
+# 원인
+
+```java
+//예시코드
+public Map<Integer, <Map<String, Sring>> function1 (List<String> input){
+    Map<Intger, <Map<String, Sring>> map1 = new HashMap<>();
+    Map<String, String> map2 = new HashMap<>();
+    for (int i = 0; i < input.size(); i++){
+        map2.put("key1", "value1");
+        map2.put("key2", "value2");
+        map2.put("key3", str);
+        map1.put(1, map2);
+    }
+    return map1;
+}
+```
+
+ 위 예시 코드처럼 for문 바깥에 생성자 선언으로 인한 heap영역에 있는 참조값을 공유하는 형태로 되어 입력값(input)의 사이즈가 2이상일 때 map2 참조값을 공유하는 형태가 됨.
+
+# 설명
+
+##### 메모리 구조
+
+###### Static area
+
+필드 부에서 선언된 전역변수, 정적 멤버변수를 저장하는 메모리(static이 붙은 자료형)
+
+###### Stack area
+
+기본자료형(int, double, byte, long, boolean 등)에 해당되는 지역변수를 저장하는 메모리
+
+###### Heap area
+
+참조형(객체, 배열 등)의 데이터 타입의 값을 저장하는 메모리
+
+###### 참조형 변수의 데이터가 저장 및 호출되는 원리
+
+Heap area에 변수의 값이 저장 되고 Stack area에 변수의 명과 변수의 참조값(해시코드)가 저장되어 호출될 때는 Stack area의 주소값을 통하여 Heap area의 값을 호출하는 방식
+
+# 해소
+
+```java
+//예시코드
+public Map<Integer, <Map<String, Sring>> function1 (List<String> input){
+    Map<Intger, <Map<String, Sring>> map1 = new HashMap<>();
+    for (int i = 0; i < input.size(); i++){
+    	Map<String, String> map2 = new HashMap<>();
+        map2.put("key1", "value1");
+        map2.put("key2", "value2");
+        map2.put("key3", str);
+        map1.put(1, map2);
+    }
+    return map1;
+}
+
+```
+
+위 예시 코드처럼 map2의 생성자 선언을 for문 안쪽으로 이동
