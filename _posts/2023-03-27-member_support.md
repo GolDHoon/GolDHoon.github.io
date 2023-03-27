@@ -15,6 +15,8 @@ search: true
 
 결과를 api 결과를 UI의 그리드에 뿌려줘야하는 상황에서 모든 그리드에 계속 같은 값이 출력된다는 현상 해소 요청
 
+---
+
 # 원인
 
 ```java
@@ -33,6 +35,8 @@ public Map<Integer, <Map<String, Sring>> function1 (List<String> input){
 ```
 
  위 예시 코드처럼 for문 바깥에 생성자 선언으로 인한 heap영역에 있는 참조값을 공유하는 형태로 되어 입력값(input)의 사이즈가 2이상일 때 map2 참조값을 공유하는 형태가 됨.
+
+---
 
 # 설명
 
@@ -54,6 +58,8 @@ public Map<Integer, <Map<String, Sring>> function1 (List<String> input){
 
 Heap area에 변수의 값이 저장 되고 Stack area에 변수의 명과 변수의 참조값(해시코드)가 저장되어 호출될 때는 Stack area의 주소값을 통하여 Heap area의 값을 호출하는 방식
 
+---
+
 # 해소
 
 ```java
@@ -73,3 +79,5 @@ public Map<Integer, <Map<String, Sring>> function1 (List<String> input){
 ```
 
 위 예시 코드처럼 map2의 생성자 선언을 for문 안쪽으로 이동
+
+---
