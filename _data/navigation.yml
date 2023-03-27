@@ -20,24 +20,32 @@ main:
 docs:
   - title : "공방"
     children : 
-      - title : "내 블로그"
+      - title : "내블로그"
         url : /categories/#myblog
-  - tile : "프로젝트"
-      children : 
-      - title : "차세대유큐브"
-        url : /categories/
-  - tile : "연구"
-      children : 
+  - title : "차세대유큐브"
+    children : 
+      - title : "전체"
+        url : /categories/#NewUcube
+      - title : "서포트"
+        url : /tags/#NewUcube_SUPPORT
+  - title : "연구"
+    children : 
       - title : "JAVA"
-        url : /categories/
+        url : /tags/#JAVA
 
-count:
-  - title : "공방"
-      children : 
-      - title : "내 블로그"
-        use: true
-  - title : "태그"
-    use: true
+# count:
+#   - title : "공방"
+#       children : 
+#       - title : "내 블로그"
+#         use: true
+#   - tile : "프로젝트"
+#       children : 
+#       - title : "차세대유큐브"
+#         use: true
+#   - tile : "연구"
+#       children : 
+#       - title : "JAVA"
+#         use: true
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"

@@ -9,10 +9,8 @@ toc_label : 목차
 author_profile : false
 sidebar:
   nav : "docs"
-search: true
+search: false
 ---
-###### ~ 2022년 1월
-
 쇼핑몰 pos (oracle, Spring framwork)
 
 가족친화인증사업(mySQL, 전자정부 framwork)
