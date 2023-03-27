@@ -4,6 +4,8 @@ main:
     url: /categories/
   - title: "태그"
     url: /tags/
+  - title: "연도별 모아보기"
+    url: /year-archive-grid/
   - title : "검색"
     url : /search/
 
