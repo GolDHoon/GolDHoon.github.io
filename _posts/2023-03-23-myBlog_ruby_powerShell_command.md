@@ -8,7 +8,7 @@ toc_sticky : true
 toc_label : 목차
 author_profile : false
 sidebar:
-  nav : "docs"
+  nav : "docs_personal_project"
 search: true
 ---
 ---

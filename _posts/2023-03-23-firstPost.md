@@ -8,7 +8,7 @@ toc_sticky : false
 toc_label :
 author_profile : false
 sidebar:
-  nav : "docs"
+  nav : "docs_personal_project"
 search: false
 ---
 check success
