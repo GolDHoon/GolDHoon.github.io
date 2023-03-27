@@ -9,11 +9,25 @@ main:
   - title : "검색"
     url : /search/
 
+# docs:
+#   # - title : "공방"
+#   #   children : 
+#     - title : "카테고리"
+#       url : /categories/
+#     - title : "태그"
+#       url : /tags/
+
 docs:
   - title : "공방"
     children : 
       - title : "내 블로그"
         url : /categories/#myblog-practice
+
+count:
+  - title : "카테고리"
+    use: true
+  - title : "태그"
+    use: true
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"

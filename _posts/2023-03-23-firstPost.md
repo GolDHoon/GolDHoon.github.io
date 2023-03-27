@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "포스팅 테스트_Local_successs"
-categories: 테스트
+categories: Test
 tag: 삭제대상
 toc : false
 toc_sticky : false

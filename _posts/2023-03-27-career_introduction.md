@@ -1,7 +1,7 @@
 ---
 layout : single
 title : "경력 소개"
-categories : 경력
+categories : Carrer
 tag : [경력소개]
 toc : true
 toc_sticky : true
@@ -15,7 +15,7 @@ search: true
 
 쇼핑몰 pos (oracle, Spring framwork)
 
-가족친화사업(mySQL, 전자정부 framwork)
+가족친화인증사업(mySQL, 전자정부 framwork)
 
 서울시립과학관(mySQL, 전자정부 framwork)
 
