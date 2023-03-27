@@ -21,7 +21,8 @@ docs:
   - title : "공방"
     children : 
       - title : "내 블로그"
-        url : /categories/#myblog-practice
+        url : /categories/#myblog
+  - tile : "프로젝트"
 
 count:
   - title : "카테고리"
