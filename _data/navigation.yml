@@ -23,10 +23,19 @@ docs:
       - title : "내 블로그"
         url : /categories/#myblog
   - tile : "프로젝트"
+      children : 
+      - title : "차세대유큐브"
+        url : /categories/
+  - tile : "연구"
+      children : 
+      - title : "JAVA"
+        url : /categories/
 
 count:
-  - title : "카테고리"
-    use: true
+  - title : "공방"
+      children : 
+      - title : "내 블로그"
+        use: true
   - title : "태그"
     use: true
   # - title: "Quick-Start Guide"
