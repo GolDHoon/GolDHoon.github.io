@@ -1,0 +1,13 @@
+---
+layout : single
+title : "글 제목"
+categories : 카테고리
+tag : [태그 (배열)]
+toc : 오른쪽 목차 여부 (true, false)
+toc_sticky : 오른쪽 목차 고정 여부 (true, false)
+toc_label : 오른쪽 목차 명
+author_profile : 왼쪽 사용자 디스크립션 사용 여부 (true, false)
+sidebar:
+  nav : "docs"
+search: 검색활성화 여부 (true, false)
+---

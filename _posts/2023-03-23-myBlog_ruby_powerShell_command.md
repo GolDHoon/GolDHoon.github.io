@@ -1,8 +1,8 @@
 ---
 layout : single
 title : "내 블로그 프로젝트 관련 PowerShell 명령 모음"
-categories : MyBlog
-tag : [PowerShell, MyBlog]
+categories : 내 블로그
+tag : [PowerShell, 내 블로그]
 toc : true
 toc_sticky : true
 toc_label : 목차

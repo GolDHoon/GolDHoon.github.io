@@ -128,6 +128,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "경력"
+      icon: ""
+      url: "https://GolDHoon.github.io/경력/career_introduction/"
 
 # Site Footer
 footer:
