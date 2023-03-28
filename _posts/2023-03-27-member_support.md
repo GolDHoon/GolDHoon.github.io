@@ -40,21 +40,22 @@ public Map<Integer, <Map<String, Sring>> function1 (List<String> input){
 
 # 설명
 
-##### 메모리 구조
+### 메모리 구조
 
-###### Static area
+**Static area**
 
 필드 부에서 선언된 전역변수, 정적 멤버변수를 저장하는 메모리(static이 붙은 자료형)
 
-###### Stack area
+**Stack area**
 
 기본자료형(int, double, byte, long, boolean 등)에 해당되는 지역변수를 저장하는 메모리
 
-###### Heap area
+**Heap area**
 
 참조형(객체, 배열 등)의 데이터 타입의 값을 저장하는 메모리
 
-###### 참조형 변수의 데이터가 저장 및 호출되는 원리
+
+**참조형 변수의 데이터가 저장 및 호출되는 원리**
 
 Heap area에 변수의 값이 저장 되고 Stack area에 변수의 명과 변수의 참조값(해시코드)가 저장되어 호출될 때는 Stack area의 주소값을 통하여 Heap area의 값을 호출하는 방식
 
