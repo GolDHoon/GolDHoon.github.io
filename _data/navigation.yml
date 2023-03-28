@@ -29,6 +29,8 @@ docs_personal_corporate:
         url : /categories/#NewUcube
       - title : "서포트"
         url : /tags/#NewUcube_SUPPORT
+      - title : "소나큐브"
+        url : /tags/#NewUcube_sonarQube
   - title : "연구"
     children : 
       - title : "JAVA"
