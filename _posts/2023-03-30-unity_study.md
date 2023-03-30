@@ -24,4 +24,5 @@ search: true
 
 
 **Sprite란?**
+
 게임 속에서 움직일 수 있는 2D 이미지이고 비트맵 이미지로 되어 있으며 Sprite Renderer로 Sprite에 대한 대략적인 옵션을 정할 수 있다.
