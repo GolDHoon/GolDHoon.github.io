@@ -25,10 +25,10 @@ docs_personal_project:
   - title : "연구"
     children : 
       - title : "유니티 전체"
-        url : /categories/#Unity
+        url : /categories/#Unity_Personal
       - title : "유니티2D"
         url : /tags/#Unity2D_STUDY
-docs_personal_corporate:
+docs_corporate_project:
   - title : "차세대유큐브"
     children : 
       - title : "전체"
@@ -39,7 +39,7 @@ docs_personal_corporate:
         url : /tags/#NewUcube_sonarQube
   - title : "연구"
     children : 
-      - title : "JAVA"
+      - title : "JAVA_Corporate"
         url : /tags/#JAVA
 
 # count:

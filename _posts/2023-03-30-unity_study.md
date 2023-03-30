@@ -2,7 +2,7 @@
 layout : single
 title : "unity) 2D 게임개발 - 개요"
 categories : Unity
-tag : [Unity, Study, Udemy_STUDY, Unity2D_STUDY]
+tag : [Unity, Unity_Personal, Study, Udemy_STUDY, Unity2D_STUDY]
 toc : true
 toc_sticky : true
 toc_label : 목차

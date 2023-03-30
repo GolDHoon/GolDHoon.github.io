@@ -8,7 +8,7 @@ toc_sticky : true
 toc_label : 목차
 author_profile : false
 sidebar:
-  nav : "docs_personal_corporate"
+  nav : "docs_corporate_project"
 search: false
 ---
 쇼핑몰 pos (oracle, Spring framwork)

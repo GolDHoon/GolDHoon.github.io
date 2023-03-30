@@ -2,13 +2,13 @@
 layout : single
 title : "java Map Setting 오류 건(객체메모리 할당)"
 categories : NewUcube
-tag : [JAVA, SUPPORT, NewUcube_SUPPORT]
+tag : [JAVA, JAVA_Corporate, SUPPORT, NewUcube_SUPPORT]
 toc : true
 toc_sticky : true
 toc_label : 목차
 author_profile : false
 sidebar:
-  nav : "docs_personal_corporate"
+  nav : "docs_corporate_project"
 search: true
 ---
 # 현상
@@ -53,7 +53,6 @@ public Map<Integer, <Map<String, Sring>> function1 (List<String> input){
 **Heap area**
 
 참조형(객체, 배열 등)의 데이터 타입의 값을 저장하는 메모리
-
 
 **참조형 변수의 데이터가 저장 및 호출되는 원리**
 

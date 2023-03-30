@@ -2,13 +2,13 @@
 layout : single
 title : "sonarQube Blocker 결함 건"
 categories : NewUcube
-tag : [JAVA, sonarQube, NewUcube_sonarQube]
+tag : [JAVA, JAVA_Corporate, sonarQube, NewUcube_sonarQube]
 toc : true
 toc_sticky : true
 toc_label : 목차
 author_profile : false
 sidebar:
-  nav : "docs_personal_corporate"
+  nav : "docs_corporate_project"
 search: true
 ---
 # 현상
