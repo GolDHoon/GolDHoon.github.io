@@ -21,7 +21,13 @@ docs_personal_project:
   - title : "공방"
     children : 
       - title : "내블로그"
-        url : /categories/#myblog
+        url : /categories/#Myblog
+  - title : "연구"
+    children : 
+      - title : "유니티 전체"
+        url : /categories/#Unity
+      - title : "유니티2D"
+        url : /tags/#Unity2D_STUDY
 docs_personal_corporate:
   - title : "차세대유큐브"
     children : 
