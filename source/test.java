@@ -1,4 +1,5 @@
 import java.time.LocalDateTime;
+import java.util.function.BiFunction;
 
 public class test{
 
@@ -6,9 +7,7 @@ public class test{
 
 class className{
 public void function(){
-    LocalDateTime now = LocalDateTime.now();
-    
-    now.withHour(00);
+    BiFunction<String, String, String> fx = (a, b) -> a+b;
 }
 }
 
