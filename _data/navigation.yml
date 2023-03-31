@@ -28,6 +28,8 @@ docs_personal_project:
         url : /categories/#Unity_Personal
       - title : "유니티2D"
         url : /tags/#Unity2D_STUDY
+      - title : "픽셀아트"
+        url : /tags/#PixelArt_STUDY
 docs_corporate_project:
   - title : "차세대유큐브"
     children : 
