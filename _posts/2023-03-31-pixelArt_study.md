@@ -15,7 +15,7 @@ search: true
 
 픽셀아트를 깔끔하게 하는 법
 
-{% include video id="pG9Hy0hXzFY-E4" provider="youtube"%}
+{% include video id="pG9Hy0hXzFY" provider="youtube"%}
 
 맛밤님 유튜브 링크 : [https://www.youtube.com/@mapam3772]([https://www.youtube.com/@mapam3772]()) "&quot;맛밤님 유트브 링크&quot;")
 
