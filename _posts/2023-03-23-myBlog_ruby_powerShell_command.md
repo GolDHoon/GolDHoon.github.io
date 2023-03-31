@@ -13,7 +13,7 @@ search: true
 ---
 ---
 
-minimal mistake 가이드 링크 : [https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide "&quot;미니멀미스테이크 링크&quot;")
+minimal mistake 가이드 링크 : [https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide "미니멀미스테이크 링크")
 
 ---
 
