@@ -82,8 +82,8 @@ public void function(){
 | Supplier\<T>         | N/A                              | T(Generic Type)  | T get()                   |
 | Function\<T, R>      | T(Generic Type)                  | R(Generic Type)  | R apply(T t)              |
 | Comparator\<T>       | T(Generic Type)                  | int              | int compare(T o1, To2)    |
-| Runnable             |                                  | void             | run())                    |
-| Callable\<V>         |                                  | V(Generic Value) | v call() throws Exception |
+| Runnable             | N/A                              | void             | run())                    |
+| Callable\<V>         | N/A                              | V(Generic Value) | v call() throws Exception |
 | BiPredicate\<T, U>   | T(Generic Type), U(Generic Type) |                  | test(T t, U u)            |
 | BiConsumer\<T, U>    | T(Generic Type), U(Generic Type) |                  | accept(T t, U u)          |
 | BiFunction\<T, U, R> | T(Generic Type), U(Generic Type) | R(Generic Type)  | R apply(T t, U u)         |
