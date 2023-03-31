@@ -17,7 +17,7 @@ search: true
 
 {% include video id="pG9Hy0hXzFY-E4" provider="youtube"%}
 
-맛밤님 유튜브 링크 : [https://www.youtube.com/@mapam3772]([https://www.youtube.com/@mapam3772]() "&quot;맛밤님 유트브 링크&quot;")
+맛밤님 유튜브 링크 : [https://www.youtube.com/@mapam3772]([https://www.youtube.com/@mapam3772]()) "&quot;맛밤님 유트브 링크&quot;")
 
 1. 단색으로 형태 구성 후 가장 어두운 색으로 외곽선 구성
 2. 외곽선은 깔끔하게 정돈
@@ -44,7 +44,6 @@ MG PIXEL ART님 유튜브 링크 : [https://www.youtube.com/@mgpixelart9726](htt
 * 계단현상을 완화 시켰는지 (Anti-Aliasing)
   * 외곽선 보다 연한 색을 주변에 배치해서 조금 더 부드럽게 보이도록
   * 필요시 외곽선의 색상을 중간 색으로 변경
-
-위 주의 점들은 가이드라인이며 너무 과하지 않게 적용하면 될 듯하다...
+  * 너무 과하지 않게 적용
 
 ---
