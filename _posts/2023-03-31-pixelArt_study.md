@@ -17,7 +17,7 @@ search: true
 
 {% include video id="pG9Hy0hXzFY" provider="youtube"%}
 
-맛밤님 유튜브 링크 : [https://www.youtube.com/@mapam3772]([https://www.youtube.com/@mapam3772]()) "&quot;맛밤님 유트브 링크&quot;")
+맛밤님 유튜브 링크 : [https://www.youtube.com/@mapam3772](https://www.youtube.com/@mapam3772 "&quot;맛밤님 유튜브 링크&quot;")
 
 1. 단색으로 형태 구성 후 가장 어두운 색으로 외곽선 구성
 2. 외곽선은 깔끔하게 정돈
