@@ -19,6 +19,6 @@ search: false
 
 ---
 
-2022년 1월 ~
+2021년 12월 ~
 
 LU+ 차세대유큐브(mySQL, Spring framwork(Waful), kafka(비동기 통신))
