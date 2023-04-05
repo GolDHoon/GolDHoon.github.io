@@ -13,7 +13,7 @@ search: true
 ---
 # 유니티 3D 소개
 
-**유데미 강좌** : [https://www.udemy.com/course/best-3d-c-unity/](https://www.udemy.com/course/best-3d-c-unity/ "유데미 강좌 링크")
+**유데미 강좌 : [https://www.udemy.com/course/best-3d-c-unity/](https://www.udemy.com/course/best-3d-c-unity/ "유데미 강좌 링크")**
 
 **유니티 3D 인터페이스 구조**
 
