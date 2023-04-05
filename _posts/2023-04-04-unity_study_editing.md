@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "unity) 3D 게임개발 - 장애물피하기"
+title : "unity) 3D 게임개발 - 장애물피하기 - 수정중"
 categories : Unity
 tag : [Unity, Unity_Personal, Study, Udemy_STUDY, Unity3D_STUDY]
 toc : true
@@ -33,7 +33,7 @@ search: true
 
 **3D C# 기본구조**
 
-```C#
+```c#
 using System.Collections;
 using System.Collections.Generic;
 usgin UnityEngine;
@@ -57,7 +57,7 @@ public class ClassName : MonoBehaviour
 
 **오브젝트 이동 스크립트**
 
-```C#
+```c#
 public class ClassName : MonoBehaviour
 {//필드맴버
 	float xValue = 0f;
@@ -77,8 +77,7 @@ void Start()
 }
 ```
 
-
-```C#
+```c#
 void Update()
 {
 	transform.Translate(xValue, yValue, zValue);
