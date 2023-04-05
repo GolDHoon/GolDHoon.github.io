@@ -13,6 +13,8 @@ search: true
 ---
 # 유니티 3D 장애물 피하기 - 수정중
 
+****유데미 강좌** : [https://www.udemy.com/course/best-3d-c-unity/](https://www.udemy.com/course/best-3d-c-unity/ "유데미 강좌 링크")**
+
 **게임 디자인**
 
 - 플레이어 : 움직일 수 있어야한다.
