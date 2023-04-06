@@ -127,10 +127,58 @@ import * as bundled from './jsExam2.js';
 
 - as 키워드는 자유롭게 스크립트의 별칭을 설정 가능 (alias)
 
-* \* 키워드는 javaScript파일의 모든 스크립트를 불러올 수 있다. bundled.date 와 같이 호출할 수 있다.
+* \* 키워드는 javaScript파일의 모든 스크립트를 불러올 수 있다. `bundled.date` 와 같이 호출할 수 있다.
 
 - NEXT JS의 모든 기능들이 모든 브라우저에서 작동하지 않는다. NEXT JS를 현재 브라우저에서 지원가능한 javaScript 기능으로 컴파일필요.
 
+---
 
+**classes**
+
+- javaScript의 객체
+
+```javascript
+
+class ClassName{
+	//property
+	key1 = 'value1';
+	//method
+	fx = () => {...};
+}
+
+//class 사용방법
+const obj1 = new ClassName();
+obj1.fx();
+consloe.log(key1);
+```
+
+- class의 상속
+
+```javascript
+class Class2{
+	constructor(){
+		this.key1 = 'value1';
+	}
+	printKey1(){
+		console.log(this.key1);
+	}
+}
+
+class Class1 extends Class2{
+	constructor(){
+		super();
+		this.key2 = 'value2';
+	}
+	printKey2(){
+		console.log(this.key2);
+	}
+}
+
+const fx = new Class2();
+fx.printKey1();
+fx.printKey2();
+```
+
+- 상속받는 class에서는 반드시 생성자 함수 안에 `super()` method를 추가해야한다. `super()` : 상위 class의 생성자함수 실행
 
 수정중
