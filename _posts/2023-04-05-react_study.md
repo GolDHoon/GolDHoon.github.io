@@ -167,22 +167,15 @@ consloe.log(key1);
 
 ```javascript
 class Class2{
-	constructor(){
-		this.key1 = 'value1';
-	}
-	printKey1(){
-		console.log(this.key1);
-	}
+	key1 = 'value1';
+
+	printKey1 = () => console.log(key1);
 }
 
 class Class1 extends Class2{
-	constructor(){
-		super();
-		this.key2 = 'value2';
-	}
-	printKey2(){
-		console.log(this.key2);
-	}
+	key2 = 'value2';
+
+	printKey2 = () => console.log(this.key2);
 }
 
 const fx = new Class2();
@@ -190,6 +183,8 @@ fx.printKey1();
 fx.printKey2();
 ```
 
-- 상속받는 class에서는 반드시 생성자 함수 안에 `super()` method를 추가해야한다. `super()` : 상위 class의 생성자함수 실행
+- javaScript 버전 ES7이 업그레이드 되면서 `super()` method와 `this`의 생략이 가능해졌다.
+
+
 
 수정중
