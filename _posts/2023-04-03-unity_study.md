@@ -11,15 +11,13 @@ sidebar:
   nav : "docs_personal_project"
 search: true
 ---
-# 유니티 3D 소개
-
 **유데미 강좌 : [https://www.udemy.com/course/best-3d-c-unity/](https://www.udemy.com/course/best-3d-c-unity/ "유데미 강좌 링크")**
 
-**유니티 3D 인터페이스 구조**
+# 유니티 3D 인터페이스 구조
 
-Hierarchy : 게임의 object가 모여 있는 곳
-Inspector : object의 설정 값이 있는 곳
-Project : 프로젝트의 구조
+**Hierarchy** : 게임의 object가 모여 있는 곳
+**Inspector** : object의 설정 값이 있는 곳
+**Project** : 프로젝트의 구조
 
 **프리팹**
 
