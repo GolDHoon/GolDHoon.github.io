@@ -24,12 +24,16 @@ docs_personal_project:
         url : /categories/#Myblog
   - title : "연구"
     children : 
+      - title : "연구 전체"
+        url : /categories/#Study
       - title : "유니티 전체"
         url : /categories/#Unity_Personal
       - title : "유니티2D"
         url : /tags/#Unity2D_STUDY
       - title : "유니티3D"
         url : /tags/#Unity3D_STUDY
+      - title : "React"
+        url : /tags/#React_STUDY
       - title : "픽셀아트"
         url : /tags/#PixelArt_STUDY
 docs_corporate_project:
