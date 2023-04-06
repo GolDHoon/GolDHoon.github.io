@@ -18,9 +18,13 @@ search: true
 
 ---
 
-**arrow 함수**
+# arrow 함수
 
-- 장점 : 기존 함수에서 this를 사용하면 의도한 객체를 참조하지 않는 현상이 있는데 arrow 함수를 사용하면 항상 정의한 객체를 나타내고, 실행중에 갑자기 바뀌지 않는다.
+**장점** 
+
+- 기존 함수에서 this를 사용하면 의도한 객체를 참조하지 않는 현상이 있는데 arrow 함수를 사용하면 항상 정의한 객체를 나타내고, 실행중에 갑자기 바뀌지 않는다.
+
+**표현방법**
 
 ```javascript
 //매개변수가 없을 때
@@ -35,6 +39,7 @@ const myFx = () => {
 myFx();
 ```
 
+
 ```javascript
 //매개변수가 1개 있을 때
 function myFx(var){
@@ -47,6 +52,7 @@ const myFx = var => {
 
 myFx('Test');
 ```
+
 
 ```javascript
 //매개변수가 2개 이상 있을 때
@@ -74,6 +80,7 @@ const myFx = (var) => console.log(var * 2);
 console.log(myFx(2));
 ```
 
+
 ```javascript
 //내부 로직이 있을 때 body return 표현
 function myFx(var){
@@ -93,7 +100,9 @@ console.log(myFx(2));
 
 ---
 
-**Exports & Imports**
+# Exports & Imports
+
+**표현방법**
 
 ```javascript
 //파일명 jsExam1.js
@@ -133,9 +142,11 @@ import * as bundled from './jsExam2.js';
 
 ---
 
-**classes**
+# classes
 
-- javaScript의 객체
+**javaScript의 객체**
+
+* **표현방법**
 
 ```javascript
 
@@ -152,7 +163,7 @@ obj1.fx();
 consloe.log(key1);
 ```
 
-- class의 상속
+**class의 상속**
 
 ```javascript
 class Class2{
