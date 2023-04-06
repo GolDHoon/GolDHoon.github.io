@@ -11,6 +11,8 @@ sidebar:
   nav : "docs_personal_project"
 search: true
 ---
+**유데미 강좌** : [https://www.udemy.com/course/best-react/](https://www.udemy.com/course/best-react/ "유데미 강좌 링크")
+
 # 변수
 
 **let**  변수
@@ -160,7 +162,7 @@ class ClassName{
 //class 사용방법
 const obj1 = new ClassName();
 obj1.fx();
-consloe.log(key1);
+console.log(key1);
 ```
 
 **class의 상속**
@@ -184,6 +186,92 @@ fx.printKey2();
 ```
 
 - javaScript 버전 ES7이 업그레이드 되면서 `super()` method와 `this`의 생략이 가능해졌다.
+
+---
+
+# spread와 rest operators
+
+**spread 연산자 [`...`]** : 배열 및 객체의 property 전체 추가
+
+```javascript
+const oldArray = [1, 2];
+const newArray = [...oldArray, 3, 4];
+const oldObject = {oldProp : 5};
+const newObject = {...oldObject, newProp:6};
+```
+
+**rest 연산자 [`...`] **: 함수의 인수 목록을 배열로 합치는데 사용
+
+```javascript
+function sortArgs(... args){
+	return args sort();
+}
+```
+
+# Destructuring(구조분할)
+
+**역할** : 배열의 원소나 객체의 property를 추출해서 변수에 저장할 수 있도록 한다.
+**spread와 차이점**
+
+- spread : 모든 원소와 property를 가져와서 새 배열이나 객체등에 전달
+- destructuring : 원소나 property 하나만 가져와서 변수에 저장
+- Array Destructuring
+
+```javascript
+[a, b] = ['Hello', 'ESC'];
+console.log(a); //Hello
+console.log(b); //ESC
+```
+
+- Object Destructuring
+
+```javascript
+{name} = {name : 'Hoon', age:32}
+console.log(name); //Hoon
+console.log(age); //undefined
+```
+
+# 참조형 및 기본형 데이터타입
+
+**기본형 데이터 타입** : number, string, boolean 등//기본형을 참조하는 경우
+
+```javascript
+let num1 = 1;
+const num2 = num1;
+
+console.log(num2);//1
+num1 = 2;
+console.log(num2);//1
+```
+
+- 기본형 데이터를 참조하는 경우 값을 복사
+
+```javascript
+//참조형을 참조하는 경우
+const person = {
+	name : 'hoon'
+}
+
+const person2 = person;
+
+console.log(person2);
+/* 출력값
+[object Object] {
+  name: "hoon"
+}
+*/
+person.name = 'Gol.D.Hoon';
+console.log(person2);
+/* 출력값
+[object Object] {
+  name: "Gol.D.Hoon"
+}
+*/
+```
+
+- 참조형 데이터를 복사하는 경우 객체는 메모리에 저장되어 있고 상수는 메모리에 있는 주소값을 저장
+
+
 
 
 
