@@ -1,14 +1,14 @@
 ---
 layout : single
 title : "java 함수형인터페이스, 람다식"
-categories : 카테고리
+categories : Java
 tag : [JAVA, NewUcube_skil]
 toc : true
 toc_sticky : true
 toc_label : 목차
 author_profile : false
 sidebar:
-  nav : "docs_personal_corporate"
+  nav : "docs_corporate_project"
 search: true
 ---
 # 개념
@@ -71,7 +71,7 @@ public void function(){
 
 매개변수의 타입이 명시되어 있는 경우 생성자 부분에 타입은 생략가능하다.
 
--  매개변수가 2개 이상일 때는 생성자 부분에 타입 생략 불가
+- 매개변수가 2개 이상일 때는 생성자 부분에 타입 생략 불가
 
 매개변수가 1개일 때 매개변수의 `()` 소괄호를 생략할 수 있다.
 

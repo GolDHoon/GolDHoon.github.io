@@ -90,6 +90,7 @@ transform : 게임의 오브젝트에 transform에 접근한다는 뜻
 
 transform.Translate() : transform에 접근 하여 Translate라는 method를 불러온다는 뜻
 
+
 ---
 
 # 3D 유니티 인터페이스
