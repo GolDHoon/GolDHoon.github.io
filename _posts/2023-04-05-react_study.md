@@ -1,8 +1,8 @@
 ---
 layout : single
-title : "react) javaScript - 수정중"
+title : "react) javaScript와 NEXT JS - 수정중"
 categories : React
-tag : [React, React_Personal, Study, Udemy_STUDY, React_STUDY, javaScript]
+tag : [React, React_Personal, Study, Udemy_STUDY, React_STUDY, javaScript, NEXTjs]
 toc : true
 toc_sticky : true
 toc_label : 목차
@@ -90,6 +90,47 @@ console.log(myFx(2));
 ```
 
 - 함수의 body 부분이 1 Line뿐인 경우 body를 감싸는 중괄호 생략 가능
+
+---
+
+**Exports & Imports**
+
+```javascript
+//파일명 jsExam1.js
+const valueJson = {
+	key1 = 'value1'
+};
+
+export default valueJson;
+```
+
+- default 키워드는 파일에서 어떤 것을 가져오면 항상 export가 내보낸 것을 기본값으로 가져온다는 의미(항상 참조한다는 의미)
+
+```javascript
+//파일명 jsExam2.js
+export const utils = () => {...};
+export const data = 10;
+```
+
+- default 키워드가 없기 때문에 정확한 키워드를 중괄호 안에 표시 해야한다.
+
+```javascript
+//파일명 app.js
+import valueJson from './jsExam1.js';
+import value from './jsExam1.js';
+
+import {data} from './jsExam2.js';
+import {util as utils} from './jsExam2.js';
+import {data, utils} from './jsExam2.js';
+import * as bundled from './jsExam2.js';
+```
+
+- as 키워드는 자유롭게 스크립트의 별칭을 설정 가능 (alias)
+
+* \* 키워드는 javaScript파일의 모든 스크립트를 불러올 수 있다. bundled.date 와 같이 호출할 수 있다.
+
+- NEXT JS의 모든 기능들이 모든 브라우저에서 작동하지 않는다. NEXT JS를 현재 브라우저에서 지원가능한 javaScript 기능으로 컴파일필요.
+
 
 
 수정중
