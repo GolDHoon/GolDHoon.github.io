@@ -13,6 +13,8 @@ search: true
 ---
 **유데미 강좌** : [https://www.udemy.com/course/best-react/](https://www.udemy.com/course/best-react/ "유데미 강좌 링크")
 
+**javaScript 자료** : [https://developer.mozilla.org/en-US/](https://developer.mozilla.org/en-US/ "mdn 링크")
+
 # 변수
 
 **let**  변수
@@ -22,7 +24,7 @@ search: true
 
 # arrow 함수
 
-**장점** 
+**장점**
 
 - 기존 함수에서 this를 사용하면 의도한 객체를 참조하지 않는 현상이 있는데 arrow 함수를 사용하면 항상 정의한 객체를 나타내고, 실행중에 갑자기 바뀌지 않는다.
 
@@ -41,7 +43,6 @@ const myFx = () => {
 myFx();
 ```
 
-
 ```javascript
 //매개변수가 1개 있을 때
 function myFx(var){
@@ -54,7 +55,6 @@ const myFx = var => {
 
 myFx('Test');
 ```
-
 
 ```javascript
 //매개변수가 2개 이상 있을 때
@@ -81,7 +81,6 @@ const myFx = (var) => console.log(var * 2);
 
 console.log(myFx(2));
 ```
-
 
 ```javascript
 //내부 로직이 있을 때 body return 표현
@@ -208,6 +207,8 @@ function sortArgs(... args){
 }
 ```
 
+---
+
 # Destructuring(구조분할)
 
 **역할** : 배열의 원소나 객체의 property를 추출해서 변수에 저장할 수 있도록 한다.
@@ -230,6 +231,8 @@ console.log(b); //ESC
 console.log(name); //Hoon
 console.log(age); //undefined
 ```
+
+---
 
 # 참조형 및 기본형 데이터타입
 
@@ -271,8 +274,14 @@ console.log(person2);
 
 - 참조형 데이터를 복사하는 경우 객체는 메모리에 저장되어 있고 상수는 메모리에 있는 주소값을 저장
 
+---
 
+# 배열 함수의 새로고침
 
+```javascript
+const numbers = [1, 2, 3];
 
+const doubleNumArray = numbers.map((num) => num * 2;);
+```
 
-수정중
+- `.map()` : javaScript 내장 배열함수
