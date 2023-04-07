@@ -1,6 +1,6 @@
 ---
 layout : single
-title : "react) javaScript와 NEXT JS - 수정중"
+title : "react) javaScript와 NEXT JS"
 categories : React
 tag : [React, React_Personal, Study, Udemy_STUDY, React_STUDY, javaScript, NEXTjs]
 toc : true
