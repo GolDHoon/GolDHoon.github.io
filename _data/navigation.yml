@@ -11,7 +11,7 @@ main:
 
 # docs:
 #   # - title : "공방"
-#   #   children : 
+#   #   children :
 #     - title : "카테고리"
 #       url : /categories/
 #     - title : "태그"
@@ -19,11 +19,11 @@ main:
 
 docs_personal_project:
   - title : "공방"
-    children : 
+    children :
       - title : "내블로그"
         url : /categories/#Myblog
   - title : "연구"
-    children : 
+    children :
       - title : "연구 전체"
         url : /categories/#Study
       - title : "유니티 전체"
@@ -38,31 +38,22 @@ docs_personal_project:
         url : /tags/#PixelArt_STUDY
 docs_corporate_project:
   - title : "차세대유큐브"
-    children : 
+    children :
       - title : "전체"
         url : /categories/#NewUcube
       - title : "서포트"
         url : /tags/#NewUcube_SUPPORT
       - title : "소나큐브"
         url : /tags/#NewUcube_sonarQube
+  - title: "daintc"
+    children:
+      - title: "Open_Layers"
+        url: /categories/#OpenLayers
   - title : "연구"
-    children : 
+    children :
       - title : "JAVA_Corporate"
         url : /tags/#JAVA
 
-# count:
-#   - title : "공방"
-#       children : 
-#       - title : "내 블로그"
-#         use: true
-#   - tile : "프로젝트"
-#       children : 
-#       - title : "차세대유큐브"
-#         use: true
-#   - tile : "연구"
-#       children : 
-#       - title : "JAVA"
-#         use: true
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
