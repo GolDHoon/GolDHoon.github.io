@@ -36,6 +36,8 @@ docs_personal_project:
         url : /tags/#React_STUDY
       - title : "픽셀아트"
         url : /tags/#PixelArt_STUDY
+      - title : "terraform"
+        url : /tags/#Terraform
 docs_corporate_project:
   - title : "차세대유큐브"
     children :
